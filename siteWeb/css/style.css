@@ -1,0 +1,122 @@
+#slogan{
+	position: absolute;
+	top: 3%;
+	left:auto;
+	color: white;
+	font-family: latolight_italic;
+	font-size: 16px ;
+	margin-left: 10px;
+}
+
+p.titre {
+	color: white;
+	font-family: latolight;
+	font-size: 70px ;
+
+	border-width:4px;
+	border-style:solid;
+ 	border-color:white;
+	}
+p.slogan{
+	text-align: center;
+	color: white;
+	font-family: latolight_italic;
+	font-size: 20px ;
+}
+#accueil{
+	position: absolute;
+	top:20%;
+	left:32%;
+}
+
+#page1 a:link {
+	text-decoration:none;
+	color:white;
+    filter: blur(0);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+	}
+#page1 a:visited{
+	color:white;
+}
+#page1 a:hover {
+	/*background-color: grey;
+	opacity: 0.3;*/
+	transition: all .1s linear;
+	filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+	}
+
+a:link {
+	text-decoration:none;
+	color:black;
+	}
+a:visited{
+	color:black;
+}
+a:hover {
+	color: grey;
+	opacity: 0.3;
+	transition: all .2s linear;
+}
+
+
+img.displayed {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1; }
+
+#page2{
+	color:white;
+}
+
+#connect{
+	line-height: 1em;
+	margin-left: 10px;
+	margin-top: 26px;
+	position: absolute;
+	border-width:0.5px;
+	border-style:solid;
+ 	border-color:white;
+ 	color: black;
+ 	background-color: white;
+ 	padding: 0px 8px 11px 8px;
+}
+
+h1, h1 ul li, h2, form{
+	margin-left: 10px;
+}
+
+/*    PUBLICITE     */
+#pub1{
+	position: absolute;
+	top:75%;
+	left:15%;
+	font-family: latolight_italic;
+	font-size: 15px;
+	color: white;
+	background-color: rgba(255,255,255,0.1);
+	border-width:0px;
+	border-style:solid;
+ 	border-color:white;
+ 	padding: 40px 100px 40px 100px;
+}
+#pub2{
+	position: absolute;
+	top:75%;
+	right:15%;
+	font-family: latolight_italic;
+	font-size: 15px;
+	color: white;
+	background-color: rgba(255,255,255,0.1);
+	border-width:0px;
+	border-style:solid;
+ 	border-color:white;
+ 	padding: 40px 100px 40px 100px;
+}
